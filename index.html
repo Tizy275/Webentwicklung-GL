@@ -3,22 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hallo Welt</title>
+    <title>HTML-Demo</title>
+    <style>
+        /*body {
+            background-color: #2d2d2d;
+        }*/
+        .liste {
+            border: 1px solid magenta;
+        }
+        #heading2 {
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
-    <uI>
+    <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/readme.html">Readme</a></li>
-    </uI>
-    <!-- Kommentar-->
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
+    </ul>
+
+
+    <h1><del>Heading 1</del></h1>
+    <h2 name="heading2" id="heading2">Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
 
-    <p><b>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-          Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </b></p>
+    <ul class="liste">
+        <li>Punkt 1</li>
+        <li>Punkt 2</li>
+        <li>Punkt 3</li>
+    </ul>
+
+    <ol class="liste">
+        <li>Punkt 2</li>
+        <li>Punkt 1</li>
+        <li>Punkt 3</li>
+    </ol>
+
+    <p><b>Lorem ipsum dolor</b>, sit amet <i>consectetur</i> adipisicing elit.<br> <small>Impedit quo neque quam quas</small> perferendis <strong>commodi officia</strong> animi tempore iure. <sub>Fugit</sub> <sup>reprehenderit</sup> et dolorum explicabo fuga.</p>
+    <p>1024*2<sup>10</sup></p>
+
+    <p>1KiB<sub>2</sub> = 1024 Bytes</p>
+
+    <img src="https://picsum.photos/200/200" alt="Hallo">
+    
+
 </body>
 </html>
